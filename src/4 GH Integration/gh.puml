@@ -15,7 +15,7 @@ title GitHub Integration Diagram for Project Le Mans
 System_Ext(gh,"GitHub","User, Team, Enterprise")
 
  AzureBlobStorage(blob, "(Vault) Project Storage", "General Purpose v2, Hot, LRS")
-'Person(customer, Customer, "A customer of Project Le Mans")
+Person(customer, Customer, "A customer of Project Le Mans")
 System_Boundary(sys,"Le Mans"){
         Container(digeng,"Digital Engineering","On Demand Engineering and Emulation, CI/CD - (Code Spaces, Remote Desktop Services, GitHub Actions) ")
         Container(community,"Community","Libraries and other Industrial Automation Content - (Repos, GitHub Pages) ")
