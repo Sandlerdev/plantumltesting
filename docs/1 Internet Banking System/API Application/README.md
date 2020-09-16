@@ -10,6 +10,7 @@
       * [Extended Docs](/docs/1%20Internet%20Banking%20System/Single%20Page%20Application/Extended%20Docs/README.md)
   * [2 Deployment](/docs/2%20Deployment/README.md)
   * [3 New UML](/docs/3%20New%20UML/README.md)
+  * [4 GH Integration](/docs/4%20GH%20Integration/README.md)
 
 ---
 
