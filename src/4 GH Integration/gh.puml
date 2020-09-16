@@ -1,0 +1,38 @@
+@startuml GitHubIntegration
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Container.puml
+
+!define AzurePuml https://raw.githubusercontent.com/RicardoNiepel/Azure-PlantUML/master/dist
+!includeurl AzurePuml/AzureCommon.puml
+!includeurl AzurePuml/Storage/AzureBlobStorage.puml
+
+LAYOUT_TOP_DOWN
+'LAYOUT_LEFT_RIGHT
+'LAYOUT_AS_SKETCH()
+'LAYOUT_WITH_LEGEND()
+
+title GitHub Integration Diagram for Project Le Mans
+'External Systems
+System_Ext(gh,"GitHub","User, Team, Enterprise")
+
+ AzureBlobStorage(blob, "(Vault) Project Storage", "General Purpose v2, Hot, LRS")
+'Person(customer, Customer, "A customer of Project Le Mans")
+System_Boundary(sys,"Le Mans"){
+        Container(digeng,"Digital Engineering","On Demand Engineering and Emulation, CI/CD - (Code Spaces, Remote Desktop Services, GitHub Actions) ")
+        Container(community,"Community","Libraries and other Industrial Automation Content - (Repos, GitHub Pages) ")
+        Container(ac,"Asset Central","Simply Connect, Simply Manage - (Repos, Repo Templates, GitHub Actions) ")
+        Container(desTools,"Design Tools","Project Analysis, Migration, Conversion - (Repos, Repo Templates, CodeQL) ")
+        Container(vault, "LeMans-Vault","Versioned Storage of user artifacts (GitHub Repos, Repo Templates) ")
+
+}
+
+Rel(ac,vault,"Storage of Device Config files")
+[vault] ..> gh : Uses Service Principal to Create, Configure and Interact with Customer Repos
+[vault]..>  blob : Storage of Large Binary files - linked to Repo Content
+Rel(desTools,vault,"Stores Projects and Analysis Output")
+Rel(digeng,vault,"Pulls Projects for use and Stores Test Results")
+Rel(vault,community,"Promote Projects to Community for Sharing")
+Rel(community,vault,"Leverage public Libraries to accelerate Projects")
+
+
+@enduml
+
