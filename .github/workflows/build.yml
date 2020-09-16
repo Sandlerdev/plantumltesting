@@ -15,4 +15,4 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: C4Builder
-        uses: clippings/c4builder-action@v2
+        uses: clippings/c4builder-action@v1
