@@ -12,7 +12,11 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - run: npm i -g C4Builder
+      - run: C4Builder
 
-      - name: C4Builder
-        uses: clippings/c4builder-action@v1
+      #- name: C4Builder
+      #  uses: clippings/c4builder-action@v1
+
