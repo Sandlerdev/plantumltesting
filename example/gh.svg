@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="677px" preserveAspectRatio="none" style="width:1191px;height:677px;" version="1.1" viewBox="0 0 1191 677" width="1191px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="445" x="364.25" y="16.708">GitHub Integration Diagram for Project Le Mans</text><!--MD5=[02c352770cea3b80c7379a4224c558f1]
+cluster sys--><rect fill="#FFFFFF" height="629.5" style="stroke: #444444; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;" width="732" x="7" y="27.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="86" x="330" y="42.9482">«boundary»</text><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="74" x="336" y="61.1016">Le Mans</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="64" x="341" y="76.0137">[System]</text><!--MD5=[f1c5fe2ff7173e3b9f16d7f9ae2b0940]
+entity digeng--><rect fill="#438DD5" height="108.4688" style="stroke: #3C7FC0; stroke-width: 1.5;" width="220" x="503" y="94.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="71" x="577.5" y="116.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="170" x="528" y="133.7734">Digital Engineering</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="181" x="520.5" y="148.6855">[On Demand Engineering and</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="200" x="513" y="162.6543">Emulation, CI/CD - (Code Spaces,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="157" x="532.5" y="176.623">Remote Desktop Services,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="104" x="561" y="190.5918">GitHub Actions) ]</text><!--MD5=[4046078815aa834d10128f3a57cef3a5]
+entity community--><rect fill="#438DD5" height="94.5" style="stroke: #3C7FC0; stroke-width: 1.5;" width="204" x="377" y="546.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="71" x="443.5" y="567.5918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="104" x="427" y="585.2734">Community</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="180" x="387" y="600.1855">[Libraries and other Industrial</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="179" x="387.5" y="614.1543">Automation Content - (Repos,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="95" x="431.5" y="628.123">GitHub Pages) ]</text><!--MD5=[1c5ba14a582780a0070707c3598231a5]
+entity ac--><rect fill="#438DD5" height="94.5" style="stroke: #3C7FC0; stroke-width: 1.5;" width="220" x="248" y="101.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="71" x="322.5" y="122.5918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="125" x="295.5" y="140.2734">Asset Central</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="200" x="258" y="155.1855">[Simply Connect, Simply Manage</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="157" x="277.5" y="169.1543">- (Repos, Repo Templates,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="104" x="306" y="183.123">GitHub Actions) ]</text><!--MD5=[6d031be89fd3e84ec135a14318ae4e5a]
+entity desTools--><rect fill="#438DD5" height="94.5" style="stroke: #3C7FC0; stroke-width: 1.5;" width="190" x="23" y="101.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="71" x="82.5" y="122.5918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="119" x="58.5" y="140.2734">Design Tools</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="166" x="33" y="155.1855">[Project Analysis, Migration,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="157" x="37.5" y="169.1543">Conversion - (Repos, Repo</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="130" x="53" y="183.123">Templates, CodeQL) ]</text><!--MD5=[238af37904abd2debf67da0af9788ab4]
+entity vault--><rect fill="#438DD5" height="94.5" style="stroke: #3C7FC0; stroke-width: 1.5;" width="202" x="471" y="309.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="71" x="536.5" y="331.0918">«container»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="123" x="510.5" y="348.7734">LeMans-Vault</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="160" x="490" y="363.6855">[Versioned Storage of user</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="178" x="481" y="377.6543">artifacts (GitHub Repos, Repo</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="76" x="534" y="391.623">Templates) ]</text><!--MD5=[b9eb45c6ffc44c4438afcca8037a1008]
+entity gh--><rect fill="#999999" height="85.1875" style="stroke: #8A8A8A; stroke-width: 1.5;" width="183" x="755.5" y="551.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="112" x="791" y="572.5918">«external_system»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="61" x="816.5" y="590.2734">GitHub</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="849" y="607.042"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="163" x="765.5" y="623.3389">User, Team, Enterprise</text><!--MD5=[433209b8f14c4c726b438b2c5d117912]
+entity blob--><rect fill="#FFFFFF" height="144.1875" style="stroke: #3C7FC0; stroke-width: 1.5;" width="207" x="973.5" y="521.9531"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="121" x="1016.5" y="543.0918">«AzureBlobStorage»</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="136" x="1006" y="560.7734">(Vault) Project</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="73" x="1040.5" y="579.3984">Storage</text><image height="59" width="70" x="1042" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAA7CAIAAABJ8GvMAAAECklEQVR4Xs2YsY4TQQyG85LzCnmFewVe4UpaaOmQaGlS0IKUAiEKJDhRIESBNPcnvjiOx2N7NrubWL9Oyd7u2N/M7L/ebOp4bN/uy+vPK+j9l986dyI2+kAUbz79bHMvJMzd09//uoIoxpCQYLUlIj1+/KGLiGIM6dWH723WpbX/9U/X4cYA0u7bnzbfCnp491WX4sYAEoZu860jzKauph9ZJJhPm2k14QbWBfUji7SyK7SC0+qaOpFCgu20OVZW3tBjJBhOm+Amgt/q4qyIkW5i3D1lDD1ACo0b+2EutYO3yhh6gORkwupl5iwZmDsnl1TY+HlITjuX9598JKm2kaF3kZx2Tq4+5gx+eKV4tCSVvKSNLpLjCrz0c/UTMi82c4bK2fM2km/c1J5gGdt/TVObPaRyDN1G8qc/iYRBIFUcvqIaSB7X6XNUvcbPQArbuRAJJLwx5Oyoe4DtRx7kCKl6PmEg+QOVCEk9OhiJj2OJmI1ync++jMeoETONVyOFo5QEEk7AX2rJGIlMhVeGlpHSKQPkQsNitlbjd4HkuwLLR2IpJMlQThNsbnJezxCpNJu5KiTHuKVmQaJSrkcqjaGfkcJ2jnVvSOruPSNJa/I1DYmu4irVrSU1ilQuG78XJHPonqYh0c1De4Fva3OrT0CSPnFAeuq3c6Z8JBSEOeNpw8n4jPG5UOxA2oQ9N5qAVIRPHJCGriwJJCpaiqaM30dw7a7foU5DKqfbddObKkc+0vWajESN3ybvCqy7RSrH2jZDxsCX3ScSmcThXurt6Z5CJGq3MVmoqR287cSVJiORJx2QzOedIx8JtarHOTs1OYc62GoaEl/18lwauqN8JJoqlI4xyVjJgdS7wOxIVFVlpCHf85HokcfV0Nft8Wct0PJCzYskX3LPDVH+egeJl4IrpkWTALMjydahSqR8DzGERH3QokjqRfDi5SLpE0NIS6+SukVr+1ab8QkHqZzeurliApDDzoske3AKjbRLvDX5SFQxLTgVp86cEYnPlKGRqpuM5CORcdeji9IHqoyeV3yQPpubIo/Eo8kwkEKf8JHKkQrJcAL+clkYExcqXYPEc6fCQKrRG2GIdKUySMq4ZdhI1W38CAnR/msW8XPTQTJ/waPoIjmGzsP5izlNskXsTavpChxdpNo3dLnodMPMKM7ueC9vEzM8pH2/8Xs4/Zi6UOz7P4jLds4MD6m6uxkpsfEwYe1MXyMM6CcNpzJACg19ZTmuwBEg1WU8YJrads6MGKn2fWJlte2cGSkkx3xWk2/cMlJINdH4La291c6ZkUW6rU/02jkzskjVNfRFlTFuGQNItd+hLKqMccsYQ3Iav4WUdwWOMaS6uqH77ZwZw0j7fuM3u8J2zoxnRNxN1CCt8dIAAAAASUVORK5CYII=" y="583.1719"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="187" x="983.5" y="653.3105">[General Purpose v2, Hot, LRS]</text><!--MD5=[92848cbaf65985a669855153c5362c37]
+entity customer--><rect fill="#08427B" height="101.4844" style="stroke: #073B6F; stroke-width: 1.5;" width="202" x="758" y="98.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="55" x="831.5" y="119.5918">«person»</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="90" x="814" y="137.2734">Customer</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="861" y="154.042"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="178" x="768" y="170.3389">A customer of Project Le</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="36" x="841" y="186.6357">Mans</text><!--MD5=[cea863e4ae9d53a07a77d9b9bab7f618]
+link ac to vault--><path d="M378.57,196.7151 C392.042,223.4581 411.657,256.2831 436,279.9531 C446.119,289.7931 457.753,298.7961 469.865,306.8951 " fill="none" id="ac-to-vault" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="474.347,309.8381,469.0188,301.555,470.1673,307.094,464.6283,308.2425,474.347,309.8381" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="137" x="437" y="253.52">Storage of Device</text><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="86" x="465" y="268.6528">Config files</text><!--MD5=[f17ff8d71941eb3199b9a263002ad328]
+link vault to gh--><path d="M667.641,405.1281 C682.746,414.1581 697.738,424.1931 711,434.9531 C751.377,467.7121 789.266,513.4601 814.743,547.3041 " fill="none" id="vault-to-gh" style="stroke: #666666; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#666666" points="817.788,551.3701,815.5957,541.7684,814.7912,547.3677,809.1918,546.5632,817.788,551.3701" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="150" x="769" y="447.0918">Uses Service Principal to</text><text fill="#666666" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="132" x="776" y="461.0605">Create, Configure and</text><text fill="#666666" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="135" x="774.5" y="475.0293">Interact with Customer</text><text fill="#666666" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="38" x="825" y="488.998">Repos</text><!--MD5=[a205e7813124d42607ada0e6790d33e6]
+link vault to blob--><path d="M673.212,364.1091 C747.749,371.9671 849.383,390.6481 928,434.9531 C964.308,455.4151 997.04,487.6631 1022.52,517.7061 " fill="none" id="vault-to-blob" style="stroke: #666666; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#666666" points="1025.9,521.7371,1023.1724,512.2735,1022.6834,517.9092,1017.0477,517.4201,1025.9,521.7371" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="143" x="998" y="454.0918">Storage of Large Binary</text><text fill="#666666" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="125" x="1007" y="468.0605">files - linked to Repo</text><text fill="#666666" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="46" x="1048.5" y="482.0293">Content</text><!--MD5=[6474577920327196d42234e7c4049c9b]
+link desTools to vault--><path d="M159.767,196.5201 C187.342,224.5701 225.715,258.8341 266,279.9531 C328.151,312.5361 404.755,331.6671 465.77,342.6501 " fill="none" id="desTools-to-vault" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="470.878,343.5571,462.7158,338.0454,465.955,342.6831,461.3173,345.9222,470.878,343.5571" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="120" x="267" y="246.02">Stores Projects</text><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="92" x="281" y="261.1528">and Analysis</text><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="54" x="302.5" y="276.2856">Output</text><!--MD5=[63d247a6dc46afddca4de565e77a0c83]
+link digeng to vault--><path d="M602.441,203.1321 C596.225,234.4391 588.4,273.8511 582.241,304.8761 " fill="none" id="digeng-to-vault" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="581.267,309.7801,586.944,301.732,582.2413,304.876,579.0973,300.1732,581.267,309.7801" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="133" x="598" y="246.02">Pulls Projects for</text><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="114" x="607.5" y="261.1528">use and Stores</text><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="97" x="618.5" y="276.2856">Test Results</text><!--MD5=[25d5bdf3d67cbe6379f24b92f3600fc7]
+link vault to community--><path d="M470.546,376.1501 C437.318,387.2861 403.865,405.4231 384,434.9531 C360.395,470.0431 386.463,511.0001 417.217,542.4211 " fill="none" id="vault-to-community" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="420.988,546.2051,417.4692,537.0063,417.4589,542.6632,411.8021,542.6529,420.988,546.2051" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="137" x="385.5" y="453.02">Promote Projects</text><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="138" x="385" y="468.1528">to Community for</text><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="56" x="428.5" y="483.2856">Sharing</text><!--MD5=[2e1e33e2592e2d9a283257ed9d177cf2]
+link community to vault--><path d="M506.485,546.4011 C515.7,529.6051 525.522,510.2701 533,491.9531 C543.781,465.5471 552.916,435.0851 559.629,409.9341 " fill="none" id="community-to-vault" style="stroke: #666666; stroke-width: 1.0;"/><polygon fill="#666666" points="560.939,404.9771,554.7723,412.6565,559.6615,409.8112,562.5068,414.7004,560.939,404.9771" style="stroke: #666666; stroke-width: 1.0;"/><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="116" x="567" y="453.02">Leverage public</text><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="88" x="581" y="468.1528">Libraries to</text><text fill="#666666" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="149" x="553" y="483.2856">accelerate Projects</text><!--MD5=[1e134db4de4022bed84970d2c2f13b93]
+@startuml
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Container.puml
+
+!define AzurePuml https://raw.githubusercontent.com/RicardoNiepel/Azure-PlantUML/master/dist
+!includeurl AzurePuml/AzureCommon.puml
+!includeurl AzurePuml/Storage/AzureBlobStorage.puml
+
+LAYOUT_TOP_DOWN
+'LAYOUT_LEFT_RIGHT
+'LAYOUT_AS_SKETCH()
+'LAYOUT_WITH_LEGEND()
+
+title GitHub Integration Diagram for Project Le Mans
+'External Systems
+System_Ext(gh,"GitHub","User, Team, Enterprise")
+
+ AzureBlobStorage(blob, "(Vault) Project Storage", "General Purpose v2, Hot, LRS")
+Person(customer, Customer, "A customer of Project Le Mans")
+System_Boundary(sys,"Le Mans"){
+        Container(digeng,"Digital Engineering","On Demand Engineering and Emulation, CI/CD - (Code Spaces, Remote Desktop Services, GitHub Actions) ")
+        Container(community,"Community","Libraries and other Industrial Automation Content - (Repos, GitHub Pages) ")
+        Container(ac,"Asset Central","Simply Connect, Simply Manage - (Repos, Repo Templates, GitHub Actions) ")
+        Container(desTools,"Design Tools","Project Analysis, Migration, Conversion - (Repos, Repo Templates, CodeQL) ")
+        Container(vault, "LeMans-Vault","Versioned Storage of user artifacts (GitHub Repos, Repo Templates) ")
+
+}
+
+Rel(ac,vault,"Storage of Device Config files")
+[vault] ..> gh : Uses Service Principal to Create, Configure and Interact with Customer Repos
+[vault]..>  blob : Storage of Large Binary files - linked to Repo Content
+Rel(desTools,vault,"Stores Projects and Analysis Output")
+Rel(digeng,vault,"Pulls Projects for use and Stores Test Results")
+Rel(vault,community,"Promote Projects to Community for Sharing")
+Rel(community,vault,"Leverage public Libraries to accelerate Projects")
+@enduml
+
+@startuml
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam rectangle {
+    StereotypeFontSize 12
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+
+
+
+
+
+
+sprite $AzureBlobStorage [70x59/16z] {
+fPVTZiOW24H7L8Hv__VT7zF4PXNRRpttFJ5CIGRynVb8mHELptZ2dkHyWM9Fuoi4EpBVOTXXV4b6JE5R737ErrH4A2zEqXP-GZj9UI1FANl4b7OysYO8oFwq
+JZMOVgpnpG8PWA9B_ceq7cs9_-0Uv5qZOSePYQ6bQ-AqRMqnwzzuQ_vhcJHvMg3POeAkrslwc3G-fJnP3EWM0ve2piMcr6c19aksz6ifgAH0gRzKG9Vh99mi
+5x-MBc15kTo0BjDkBomQM2XZWGuiDbBUMZAq3sTjOHaBjBDKP7f22onzmCaZYvK2vE86Y40OMAWzvT0Y7MSJfEoXXG9XO9c8BGrsQEdaodEB9tXiyLRL-Kjh
+lh4Ke8GMb-l7DW5QO1bR6rWAn1H21xQM300IMHAKJ70l9XjBGqVN5kyFAFtxZSNJr9zcItsoL5oKWxVuilmC2xj5O5jB6PQyj0WA3OaxYmLrOLWK443f8e28
+hImI5DHXeKeI9JrtLXQDolARFGeBbGyBkAFTB3MibtNVubq0ZtkGtLwP9EIUQDvqGqlO8hxhXsDcDKj83aOxfNtMcoi_mKzlYKuvksj6okVjMz0v6x1YWvvS
+90C_I7bGFXljKTeP3yY_3gnl
+}
+
+skinparam rectangle<<AzureBlobStorage>> {
+    BackgroundColor #FFFFFF
+    BorderColor #3C7FC0
+}
+
+top to bottom direction
+
+title GitHub Integration Diagram for Project Le Mans
+rectangle "==GitHub\n\n User, Team, Enterprise" <<external_system>> as gh
+
+ rectangle "==(Vault) Project Storage\n<color:#0072C6><$AzureBlobStorage></color>\n//<size:12>[General Purpose v2, Hot, LRS]</size>//" <<AzureBlobStorage>> as blob
+rectangle "==Customer\n\n A customer of Project Le Mans" <<person>> as customer
+rectangle "==Le Mans\n<size:12>[System]</size>" <<boundary>> as sys{
+        rectangle "==Digital Engineering\n//<size:12>[On Demand Engineering and Emulation, CI/CD - (Code Spaces, Remote Desktop Services, GitHub Actions) ]</size>//" <<container>> as digeng
+        rectangle "==Community\n//<size:12>[Libraries and other Industrial Automation Content - (Repos, GitHub Pages) ]</size>//" <<container>> as community
+        rectangle "==Asset Central\n//<size:12>[Simply Connect, Simply Manage - (Repos, Repo Templates, GitHub Actions) ]</size>//" <<container>> as ac
+        rectangle "==Design Tools\n//<size:12>[Project Analysis, Migration, Conversion - (Repos, Repo Templates, CodeQL) ]</size>//" <<container>> as desTools
+        rectangle "==LeMans-Vault\n//<size:12>[Versioned Storage of user artifacts (GitHub Repos, Repo Templates) ]</size>//" <<container>> as vault
+
+}
+
+ac - -> vault : "===Storage of Device Config files"
+[vault] ..> gh : Uses Service Principal to Create, Configure and Interact with Customer Repos
+[vault]..>  blob : Storage of Large Binary files - linked to Repo Content
+desTools - -> vault : "===Stores Projects and Analysis Output"
+digeng - -> vault : "===Pulls Projects for use and Stores Test Results"
+vault - -> community : "===Promote Projects to Community for Sharing"
+community - -> vault : "===Leverage public Libraries to accelerate Projects"
+@enduml
+
+PlantUML version 1.2020.17beta5(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
