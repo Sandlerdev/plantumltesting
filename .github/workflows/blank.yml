@@ -35,6 +35,6 @@ jobs:
           uses: clippings/c4builder-action@v1
           with:
             # Path to C4Builder configuration file, source and dist
-            path: # optional, default is .
+            path: . # optional, default is .
           echo Add other actions to build,
           echo test, and deploy your project.
