@@ -13,7 +13,7 @@
 	"includeTableOfContents": true,
 	"includeBreadcrumbs": false,
 	"includeLinkToDiagram": true,
-	"diagramsOnTop": true,
+	"diagramsOnTop": false,
 	"generateLocalImages": true,
 	"charset": "UTF-8",
 	"hasRun": true
