@@ -1,0 +1,20 @@
+{
+	"plantumlVersion": "latest",
+	"projectName": "LeMans Test",
+	"homepageName": "Overview",
+	"rootFolder": "src",
+	"distFolder": "docs",
+	"generateMD": true,
+	"generatePDF": false,
+	"generateCompleteMD": true,
+	"generateCompletePDF": false,
+	"generateWEB": false,
+	"includeNavigation": true,
+	"includeTableOfContents": true,
+	"includeBreadcrumbs": true,
+	"includeLinkToDiagram": false,
+	"diagramsOnTop": true,
+	"generateLocalImages": false,
+	"charset": "UTF-8",
+	"hasRun": true
+}
