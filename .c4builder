@@ -11,10 +11,10 @@
 	"generateWEB": false,
 	"includeNavigation": true,
 	"includeTableOfContents": true,
-	"includeBreadcrumbs": true,
-	"includeLinkToDiagram": false,
+	"includeBreadcrumbs": false,
+	"includeLinkToDiagram": true,
 	"diagramsOnTop": true,
-	"generateLocalImages": false,
+	"generateLocalImages": true,
 	"charset": "UTF-8",
 	"hasRun": true
 }
