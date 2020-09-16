@@ -1,0 +1,106 @@
+@startuml
+!includeurl https://raw.githubusercontent.com/RicardoNiepel/C4-PlantUML/master/C4_Container.puml
+
+!define AzurePuml https://raw.githubusercontent.com/RicardoNiepel/Azure-PlantUML/master/dist
+!includeurl AzurePuml/AzureCommon.puml
+!includeurl AzurePuml/AzureC4Integration.puml
+!includeurl AzurePuml/Databases/AzureCosmosDb.puml
+!includeurl AzurePuml/Storage/AzureBlobStorage.puml
+!includeurl AzurePuml/Storage/AzureQueueStorage.puml
+!includeurl AzurePuml/Compute/AzureVirtualMachineScaleSet.puml
+!includeurl AzurePuml/Containers/AzureKubernetesService.puml
+!includeurl AzurePuml/DevOps/AzureRepos.puml
+!includeurl AzurePuml/DevOps/AzurePipelines.puml
+!includeurl AzurePuml/Networking/AzureApplicationGateway.puml
+!includeurl AzurePuml/Networking/AzureDNS.puml
+!includeurl AzurePuml/Networking/AzureLoadBalancer.puml
+!includeurl AzurePuml/Security/AzureKeyVault.puml
+!includeurl AzurePuml/Compute/AzureFunction.puml
+!includeurl AzurePuml/Integration/AzureEventGrid.puml
+!includeurl AzurePuml/Compute/AzureAppService.puml
+
+'LAYOUT_TOP_DOWN
+LAYOUT_LEFT_RIGHT
+'LAYOUT_AS_SKETCH()
+LAYOUT_WITH_LEGEND()
+
+title Container diagram for Project Le Mans Release 1
+Person(customer, Customer, "A customer of Project Le Mans")
+AzureDNS(dns,"DNS","")
+'AzureApplicationGateway(appgw,"Application Gateway","Public Endpoint for Le Mans")
+AzureAppService(appgw,"Portal / App Gateway", "Public Endpoint for Le Mans - Angular, TypeScript")
+'Containers
+System_Boundary(sys,"Le Mans"){
+
+    Boundary(k8s, "Kubernetes"){
+        AzureKubernetesService(aks,"Le Mans AKS","K8s, Helm, Docker")
+
+        Container(lcore, "lcore Project","F#, Equinox")
+        Container(identity,"IdenityServer","C#, IdentityServer4")
+        Container(graphql,"GraphQL Server","TypeScript, Apollo")
+
+    }
+
+
+    AzureVirtualMachineScaleSet(vms,"Logix Services VMs", "WinVM, Packer, Logix Designer")
+    AzureQueueStorage(queue, "Queue", "General Purpose v2, LRS")
+    AzureCosmosDb(cosmosDb, "Document DB", "SQL API, ??? RUs")
+    AzureBlobStorage(staticBlobStorage, "(Vault) Project Storage", "General Purpose v2, Hot, LRS")
+    AzureBlobStorage(views,"Storage of Materialized Views and other Static Data","General Purpose v2, Hot, LRS")
+    AzureEventGrid(eg,"Event Grid","Listens to Azure Storage","")
+    Boundary(funcAppSvc,"Az Function App Service"){
+    AzureAppService(funcSvc,"Dedicated Resource for AZ funcitons","<put size info here>")
+    AzureFunction(vaultfunc,"Vault Monitor","C#")
+    AzureFunction(viewfunc,"Document DB Monitor","C#")
+    }
+}
+
+'External Systems
+System_Ext(iam, "MyRockwell", "RA Customer SSO")
+System_Ext(entitlements, "Entitlement Service", "TechConnect and Subscriptions")
+
+
+
+'Relationships
+
+Rel(dns,customer,"Uses","HTTPS")
+Rel(customer,appgw,"Uses","Public IP")
+'Rel(appgw,aks,"Uses","HTTPS -Passes JWT")
+'Rel(appgw,lemansui,"Uses","HTTPS -Passes JWT")
+Rel(appgw,lcore,"Uses","HTTPS -Passes JWT")
+Rel(appgw,identity,"Uses","HTTPS - Returns JWT")
+Rel(viewfunc,cosmosDb,"Listens for Changes")
+Rel(viewfunc,views,"Pushes Changes")
+Rel(eg,views,"Listens for Chagnes")
+Rel(graphql,eg,"Publishes Changes to Views")
+Rel(appgw,graphql,"Uses","HTTPS -Passes JWT, Subscribes to Views")
+Rel(vaultfunc,staticBlobStorage,"Listens for Changes")
+Rel(vaultfunc,queue,"Writes message to Queue on Change to Blob (Vault)")
+
+'Rel(lcore,identity,"Tenant - User Integration")
+'Rel(lemansui,identity,"Authenticate/Return JWT")
+'Rel(identity,lemansui,"Return JWT")
+
+Rel(identity,iam,"Authentication Request")
+Rel(identity,entitlements,"Lookup Entitlements")
+
+'Rel(aks,lemansui,"Schedule")
+
+
+
+Rel(vms,queue,"Read/Write")
+Rel(lcore,queue,"Read/Write")
+Rel(vms,staticBlobStorage,"Write")
+'Rel(lemansui,sas,"Get SAS Token")
+'Rel(sas,staticBlobStorage,"Generate SAS Token")
+'Rel(lemansui,staticBlobStorage,"Generate SAS Token")
+Rel(customer,staticBlobStorage,"Write using SAS Token")
+Rel(staticBlobStorage,customer,"Read using SAS Token")
+
+'Rel(lemansui, lcore, "API request/response")
+Rel(lcore,cosmosDb,"Transactions")
+
+
+
+
+@enduml
