@@ -2,7 +2,7 @@
 
 this is just a test to see if the uml will be built in a private repo
 
-**Scope**: A single PlantUML file.
+**Scope**: A single PlantUML file. this is some added text.
 
 **Primary elements**: Bunch of stuff from Azure and Le Mans
 
